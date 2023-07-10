@@ -1,0 +1,37 @@
+ipynb-filters: [nbdev_filter]
+
+project:
+  type: website
+  output-dir: _docs
+  preview:
+    port: 3000
+    browser: false
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 4
+
+website:
+  title: "nbdev-dav"
+  site-url: "https://Accessible-Data-and-Code.github.io/nbdev-dav"
+  description: "A repository based off of Jeremy Howard's 2022 nbdev tutorial"
+  twitter-card: true
+  open-graph: true
+  repo-branch: master
+  repo-url: "https://github.com/Accessible-Data-and-Code/nbdev-dav"
+  repo-actions: [issue]
+  navbar:
+    background: primary
+    search: true
+    right:
+      - icon: github
+        href: "https://github.com/Accessible-Data-and-Code/nbdev-dav"
+  sidebar:
+    style: "floating"
+
+metadata-files: 
+  - sidebar.yml
+  - custom.yml
